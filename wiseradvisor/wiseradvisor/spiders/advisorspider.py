@@ -39,6 +39,7 @@ class AdvisorspiderSpider(scrapy.Spider):
                 'Firm Name': firm_name,
                 'Address': full_address,
                 'Experience': experience,
+                'AUM': aum,
                 'Minimum Assets': min_assets,
                 'Fee Structure': fee_structure,
             }
