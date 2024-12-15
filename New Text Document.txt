@@ -1,0 +1,13 @@
+py -m venv Environment
+Set-Executionpolicy -Executionpolicy Bypass -Scope Process
+
+ Environment\scripts\activate
+
+pip install scrapy
+
+pip install ipython
+
+scrapy startproject wiseradvisor
+
+scrapy genspider advisorspider https://www.wiseradvisor.com/
+
